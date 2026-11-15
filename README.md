@@ -56,3 +56,8 @@ changed for games: `docs/PLAN.md`.
 | `tools/lune/Soak.luau` | one randomized run: players, server hops, crashes, outages and messages |
 | `tools/lune/Replay.luau` | rebuilds a recorded write with `Engine/Record` and `Engine/Lock` |
 | `tools/specs` | scenarios on both engines (`sessions`), random runs (`soak`), mixed fleets (`fleet`), `replay`, the whole server (`vault`), engine only behaviour (`engine`), table specs (`record`, `lock`, `storable`, `wheel`, `queue`), calibration and harness self tests |
+
+## License
+
+Copyright (c) yztomas5. All rights reserved. This code is published only so it can be read. No permission is
+granted to use, copy, modify or distribute it, in whole or in part.
