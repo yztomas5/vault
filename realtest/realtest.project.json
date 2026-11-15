@@ -1,0 +1,51 @@
+{
+	"name": "VaultRealTest",
+	"tree": {
+		"$className": "DataModel",
+		"ReplicatedStorage": {
+			"$className": "ReplicatedStorage",
+			"Packages": {
+				"$className": "Folder",
+				"Vault": {
+					"$path": "../src/Vault"
+				},
+				"ProfileStore": {
+					"$path": "../reference/ProfileStore.luau"
+				}
+			}
+		},
+		"ServerScriptService": {
+			"$className": "ServerScriptService",
+			"RealTest": {
+				"$path": "src/RealTest"
+			}
+		},
+		"StarterPlayer": {
+			"$className": "StarterPlayer",
+			"StarterPlayerScripts": {
+				"$className": "StarterPlayerScripts",
+				"VaultRealTestScreen": {
+					"$path": "src/Client/Screen.client.luau"
+				}
+			}
+		},
+		"Workspace": {
+			"$className": "Workspace",
+			"Baseplate": {
+				"$className": "Part",
+				"$properties": {
+					"Anchored": true,
+					"Size": [256, 4, 256],
+					"Position": [0, -2, 0]
+				}
+			},
+			"Spawn": {
+				"$className": "SpawnLocation",
+				"$properties": {
+					"Anchored": true,
+					"Position": [0, 1, 0]
+				}
+			}
+		}
+	}
+}

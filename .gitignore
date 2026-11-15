@@ -1,0 +1,9 @@
+*.rbxl
+*.rbxlx
+*.rbxl.lock
+*.rbxlx.lock
+sourcemap.json
+.mcp.json
+scratchpad/
+reference/ProfileStore.luau
+build/

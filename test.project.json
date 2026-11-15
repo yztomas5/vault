@@ -1,0 +1,21 @@
+{
+	"name": "vault-tests",
+	"tree": {
+		"$className": "DataModel",
+		"ReplicatedStorage": {
+			"$className": "ReplicatedStorage",
+			"Packages": {
+				"$className": "Folder",
+				"Vault": {
+					"$path": "src/Vault"
+				},
+				"ProfileStore": {
+					"$path": "reference/ProfileStore.luau"
+				},
+				"Market": {
+					"$path": "src/Market"
+				}
+			}
+		}
+	}
+}

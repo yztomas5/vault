@@ -1,0 +1,33 @@
+--!strict
+return table.freeze({
+	DataKey = "Market",
+	GiftMessage = "MarketGift",
+	PassAttribute = "MarketPass_",
+	SubscriptionAttribute = "MarketSub_",
+	ReceiptLoadSeconds = 30,
+	SaveConfirmSeconds = 30,
+	IntentSaveSeconds = 10,
+	SaveRetrySeconds = 2,
+	PollSeconds = 0.25,
+	IntentSeconds = 3600,
+	LedgerSize = 100,
+	LookupAttempts = 3,
+	LookupRetrySeconds = 2,
+	RegionalThreshold = 0,
+	StudioPriceAttribute = "PriceLevel",
+	StudioPriceLevel = 100,
+	Texts = table.freeze({
+		Failed = "Your purchase could not be completed yet. You will not be charged twice.",
+		GiftSent = "You gifted %s to %s!",
+		GiftReceived = "%s gifted you %s!",
+	}),
+	Refusals = table.freeze({
+		Unknown = "That item does not exist.",
+		NotGiftable = "That item cannot be gifted.",
+		Self = "You cannot gift yourself.",
+		NoRecipient = "That player is not in this server.",
+		Owned = "That player already owns it.",
+		Region = "Gifting to that player is not available.",
+		Busy = "That is not available right now, try again soon.",
+	}),
+})
